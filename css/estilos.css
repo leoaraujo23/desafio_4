@@ -1,0 +1,416 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Seccion del nav*/
+
+.superior {
+    display: flex;
+}
+
+.superior_padre {
+    width: 75%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.superior_logo, .superior_joy {
+    height: 60%;
+}
+
+.superior_lupa {
+    height: 10px;
+    display: none;
+}
+
+.superior_derecha_padre {
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.superior_logo_padre {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.superior_busqueda {
+    margin-left: 10%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.superior_boton {
+    margin-top: 2%;
+    width: 60%;  
+    height: 150%;  
+    background-color: white;
+    border-color: #2A7AE4;
+    border-style: solid; 
+    border-width: thin;
+    color: #2A7AE4; 
+    align-self: center;
+}
+
+.superior_enlace {
+    width: 100%;  
+    height: 130%;
+}
+
+.superior_boton:hover {
+border-radius: 20px;
+}
+
+/*Seccion del header*/
+
+.header {
+    margin-top: 2%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("./img/banner-image.png");
+    height: 352px ;
+    background-size: 100% 100%;
+}
+
+.header_padre {
+    padding-top: 6%;
+    padding-left: 10%;
+}
+
+.header_textos {
+     color: white;
+}
+
+.header_textos_febrero {
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.header_textos_productos {
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.header_textos_btn {
+    background: #2A7AE4;
+    color:white;
+    font-family: 'Raleway';
+    font-style: normal;
+    border-style: hidden;
+    padding: 16px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+/*Seccion de los productos*/
+
+.productos {
+    margin: 5% 10%;
+}
+
+.productos_productos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos_clase {
+    width: 100%;
+}
+
+.productos_clase_individual, .productos_clase_individual1  {
+    width: 15%;
+}
+
+.productos_clase_titulos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.productos_clase_boton, .producto_clase_detalle {
+    font-family: 'Raleway';
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.productos_clase_nombre_derecha {
+    align-self: center;
+}
+
+.productos_clase_boton{
+    text-align: right;
+    align-self: center;
+}
+
+.productos_clase_tipo {
+    font-weight: 500;
+    font-family: 'Raleway';
+}
+
+.productos_clase_precio, .producto_clase_detalle{
+    font-weight: 700;
+}
+
+/*Seccion de footer formulario footer*/
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAF2FD;
+}
+
+.formulario_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+.formulario_parte1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: 4%;
+}
+
+.formulario_logo, .formulario_inf, .formulario_contacto {
+    width: 30%;
+}
+
+.formulario_inf{
+    margin-left: 15%;  
+}
+
+.formulario_logo{
+    margin-left: 10%;
+}
+
+.formulario_contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    text-align: left;
+}
+
+.formulario_contacto_boton {
+    background: #2A7AE4;
+    color:white;
+    font-family: 'Raleway';
+    font-style: normal;
+    border-style: hidden;
+    padding: 16px;
+    margin-top: 16px;
+    width: 50%;
+}
+
+.formulario_contacto_input2, .formulario_contacto_input {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 5%;
+    min-height: 1rem;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.formulario_contacto_input2{
+    min-height: 2rem;
+}
+
+.formulario_contacto_contacto {
+    font-weight: 700;
+}
+
+/*Seccion del final*/
+
+.desarrollado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+}
+
+.desarrollado_texto2, .desarrollado_texto {
+    text-align: center;
+    vertical-align: bottom;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin: 0%;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    
+    /*Seccion del nav*/
+
+    .superior_logo {
+        width: 40px;
+        height: 12px;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .superior_logo_padre {
+        width: 70%;
+    }
+
+    .superior_joy {
+        width: 25px;
+        height: 12px;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .superior_busqueda {
+        align-self: flex-end;
+    }
+
+    .superior_boton {
+        width: 100%;
+        height: 120%;
+    }
+
+    /*Seccion del header*/
+
+    .header {
+        height: 200px;
+    }
+
+    .header_textos_btn {
+        padding: 8px;
+    }
+    .header_textos_febrero {
+        font-size: 30px;
+        font-weight: 600;
+    }
+ 
+    /*Seccion de los productos*/
+    .productos_clase_individual1{
+        display: none;
+    }
+
+    .productos_clase_individual_img {
+        width: 130px;
+    }
+
+    /*Seccion del formulario footer*/
+
+    .formulario_parte1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    
+    .formulario_inf {
+        width: 80%;
+        margin-left: 0%;
+        
+    }
+
+    .formulario_logo, .formulario_contacto {
+        margin-left: 0%;
+    }
+
+    .formulario_contacto{
+        width: 80%;
+    }
+
+    .formulario_contacto_boton {
+        padding: 8px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    
+    /*Seccion del nav*/
+
+    .superior_busqueda {
+        display: none;
+    }
+
+    .superior_lupa {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .superior_derecha_padre{
+        width: 50%;
+    }
+
+    .superior_boton {
+        height: 120%;
+        align-self: flex-start;
+    }
+
+    .superior_logo {
+        width: 35px;
+        height: 10px;
+    }
+
+    .superior_joy {
+        width: 22px;
+        height: 16px;
+    }
+    
+    /*Seccion del header*/
+
+    .header {
+        height: 150px;
+    }
+    
+    .header_textos_febrero {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .header_textos_btn {
+        padding: 4px;
+    }
+
+    /*Seccion de los productos*/
+
+    .productos_productos {
+        flex-wrap: wrap;
+    }
+
+    .productos_clase_individual {
+        width: 150px;
+        margin-right: 3px;
+    }
+
+    .productos_clase_individual1{
+        display: none;
+    }
+
+    .productos_clase_individual_img {
+        width: 150px;
+    }
+    
+    /*Seccion del formulario footer*/
+
+    .formulario_principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario_logo {
+        justify-content: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .formulario_inf {
+        width: auto;
+        margin-left: 25%;
+    }
+
+    .formulario_contacto {
+        width: auto;
+    }
+}

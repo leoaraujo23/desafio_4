@@ -1,0 +1,360 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Seccion del nav*/
+
+.superior {
+    display: flex;
+    padding: 2%;
+}
+
+.superior_padre {
+    width: 75%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.superior_logo, .superior_joy {
+    height: 60%;
+}
+
+.superior_lupa {
+    height: 10px;
+    display: none;
+}
+
+.superior_derecha_padre {
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.superior_logo_padre {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.superior_busqueda {
+    margin-left: 10%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.superior_boton {
+    margin-top: 2%;
+    width: 100%;  
+    height: 150%;  
+    background-color: white;
+    border-color: #2A7AE4;
+    border-style: solid; 
+    border-width: thin;
+    color: #2A7AE4; 
+    align-self: center;
+}
+
+.superior_boton:hover {
+border-radius: 20px;
+}
+
+.superior_enlace {
+    width: 100%;  
+    height: 130%;
+}
+
+/*Seccion iniciar*/
+.iniciar {
+    background-color: #E5E5E5;
+    padding: 5% 2%;
+}
+
+.iniciar_padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iniciar_url, .iniciar_categoria, .iniciar_nombre, .iniciar_precio, .iniciar_boton {
+    width: 47%;
+    padding: 1%;
+    margin: 1%;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-color: #FFFFFF;
+}
+
+.iniciar_descripcion {
+    width: 47%;
+    padding: 3% 1%;
+    margin: 1%;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-color: #FFFFFF;
+}
+
+.iniciar_boton{
+    background: #2A7AE4;
+    color:white;
+    font-family: 'Raleway';
+    font-style: normal;
+    border-style: hidden;
+    width: 49%;
+    padding: 2%;
+}
+
+/*Seccion footer formulario*/
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAF2FD;
+}
+
+.formulario_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+.formulario_parte1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: 4%;
+}
+
+.formulario_logo, .formulario_inf, .formulario_contacto {
+    width: 30%;
+}
+
+.formulario_inf{
+    margin-left: 15%;  
+}
+
+.formulario_logo{
+    margin-left: 10%;
+}
+
+.formulario_contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    text-align: left;
+}
+
+.formulario_contacto_boton {
+    background: #2A7AE4;
+    color:white;
+    font-family: 'Raleway';
+    font-style: normal;
+    border-style: hidden;
+    padding: 16px;
+    margin-top: 16px;
+    width: 50%;
+    font-weight: 400;
+}
+
+.formulario_contacto_input2, .formulario_contacto_input {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 5%;
+    min-height: 1rem;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.formulario_contacto_contacto {
+    font-weight: 700;
+}
+
+.formulario_contacto_input {
+    padding: 4% 5%;
+}
+
+.formulario_contacto_input2{
+    min-height: 2rem;
+}
+
+.desarrollado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+}
+
+.desarrollado_texto2, .desarrollado_texto {
+    text-align: center;
+    vertical-align: bottom;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin: 0%;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    
+    /*Seccion del nav*/
+
+    .superior_padre {
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .superior_logo {
+        width: 40px;
+        height: 12px;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .superior_logo_padre {
+        width: 50%;
+    }
+
+    .superior_joy {
+        width: 25px;
+        height: 12px;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .superior_busqueda {
+        align-self: flex-end;
+    }
+
+    .superior_boton {
+        width: 100%;
+        height: 120%;
+    }
+
+    /*Seccion iniciar*/
+
+
+    .iniciar_url, .iniciar_categoria, .iniciar_nombre, .iniciar_precio, .iniciar_boton, .iniciar_descripcion {
+        width: 90%;
+    }
+
+    .iniciar_boton {
+        width: 93%;
+    }
+
+    /*Seccion del formulario footer*/
+
+    .formulario_parte1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .formulario_inf {
+        width: 80%;
+        margin-left: 0%;
+        
+    }
+
+    .formulario_logo, .formulario_contacto {
+        margin-left: 0%;
+    }
+
+    .formulario_contacto{
+        width: 80%;
+    }
+
+    .formulario_contacto_boton {
+        padding: 8px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+    /*Seccion del nav*/
+
+    .superior_padre {
+        width: 90%;
+        justify-content: space-between;
+        margin-bottom: 2%;
+    }
+
+    .superior_busqueda {
+        display: none;
+    }
+
+    .superior_lupa {
+        display: flex;
+        margin-left: 9%;
+        order: 99;
+        height: max-content;
+    }
+
+    .superior_derecha_padre{
+        width: 50%;
+    }
+
+    .superior_boton {
+        height: 120%;
+        align-self: flex-start;
+    }
+
+    .superior_logo_padre {
+        width: 70%;
+    }
+
+    .superior_enlace {
+        width: 145px;
+    }
+
+    .superior_boton {
+        width:145px;
+    }
+
+    .superior_logo {
+        width: 35px;
+        height: 10px;
+    }
+
+    .superior_joy {
+        width: 22px;
+        height: 16px;
+    }
+
+    /*Seccion del formulario footer*/
+
+    .formulario_principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario_logo {
+        justify-content: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .formulario_inf {
+        width: auto;
+        align-items: center;
+    }
+
+    .formulario_inf_item {
+        text-align: center;
+    }
+
+    .formulario_contacto {
+        width: auto;
+    }
+    
+    .formulario_contacto_boton {
+        padding: 10px;
+        margin-bottom: 2%;
+    }
+}

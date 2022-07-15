@@ -1,0 +1,47 @@
+.superior {
+    display: flex;
+}
+
+.superior_padre {
+    width: 75%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.superior_joy .superior_logo {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.superior_logo_padre {
+    display: flex;
+    width: 50%;
+}
+
+.superior_busqueda {
+    margin-left: 10%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.superior_boton {
+    width: 13%;    
+    background-color: white;
+    border-color: #5dc1b9; 
+    color: #5dc1b9; 
+}
+
+.header {
+    background-image: url("./img/header2.jpg");
+    height: 352px ;
+    background-size: 100% 100%;
+}
+
+.header_textos {
+    color: antiquewhite;
+}
+
+.header_textos_febrero {
+    font-size: xx-large;
+}

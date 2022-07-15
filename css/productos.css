@@ -1,0 +1,383 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.superior {
+    display: flex;
+}
+
+.superior_padre {
+    width: 75%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.superior_logo, .superior_joy {
+    height: 60%;
+}
+
+.superior_lupa {
+    height: 10px;
+    display: none;
+}
+
+.superior_derecha_padre {
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.superior_logo_padre {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.superior_busqueda {
+    margin-left: 10%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.superior_boton:hover {
+border-radius: 20px;
+}
+
+/*Seccion de los productos*/
+
+.productos {
+    margin: 5% 10%;
+}
+
+.productos_productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.productos_clase {
+    width: 100%;
+}
+
+.productos_clase_titulos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productos_clase_nombre {
+    width: 70rem;
+}
+
+.productos_enlace {
+    width: 90%;  
+    height: 130%;
+    margin-left: 60%;
+}
+
+.productos_clase_individual, .productos_clase_individual1  {
+    width: 15%;
+}
+
+.producto_clase_detalle {
+    font-family: 'Raleway';
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.productos_clase_nombre_derecha {
+    align-self: center;
+}
+
+.productos_boton {
+    margin-top: 2%;
+    width: 100%;  
+    height: 150%;  
+    color: white;
+    border-color: #2A7AE4;
+    border-style: solid; 
+    border-width: thin;
+    background-color: #2A7AE4; 
+    padding: 15px;
+    margin-bottom: 2%;
+}
+
+.productos_clase_tipo {
+    font-weight: 500;
+    font-family: 'Raleway';
+}
+
+.productos_clase_precio, .producto_clase_detalle{
+    font-weight: 700;
+}
+
+/*Seccion de footer formulario*/
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAF2FD;
+}
+
+.formulario_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+.formulario_parte1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: 4%;
+}
+
+.formulario_logo, .formulario_inf, .formulario_contacto {
+    width: 30%;
+}
+
+.formulario_inf{
+    margin-left: 15%;  
+}
+
+.formulario_logo{
+    margin-left: 10%;
+}
+
+.formulario_contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    text-align: left;
+}
+
+.formulario_contacto_boton {
+    background: #2A7AE4;
+    color:white;
+    font-family: 'Raleway';
+    font-style: normal;
+    border-style: hidden;
+    padding: 16px;
+    margin-top: 16px;
+    width: 50%;
+}
+
+.formulario_contacto_input2, .formulario_contacto_input {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 5%;
+    min-height: 1rem;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.formulario_contacto_input2{
+    min-height: 2rem;
+}
+
+.desarrollado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+}
+
+.desarrollado_texto2, .desarrollado_texto {
+    text-align: center;
+    vertical-align: bottom;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin: 0%;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    
+    .superior_logo {
+        width: 40px;
+        height: 12px;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .superior_logo_padre {
+        width: 70%;
+    }
+
+    .superior_joy {
+        width: 25px;
+        height: 12px;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .superior_busqueda {
+        margin-top: 2%;
+    }
+
+    .superior_boton {
+        width: 100%;
+        height: 120%;
+    }
+
+    .productos {
+        margin: 5% 2%;
+    }
+
+    .productos_productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .productos_enlace {
+        margin-left: 40%;
+    }
+
+    .productos_boton {
+        width: 88%;
+        padding: 8px;
+    }
+    .productos_clase_individual{
+        width: 24%;
+        margin-left: 1%;
+    }
+    
+    .productos_clase_individual_img {
+        width: 120px;
+    }
+
+    .producto_clase_detalle, .productos_clase_tipo {
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    .productos_clase_precio {
+        font-size: 12px;
+    }
+
+    .formulario_parte1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    
+    .formulario_inf {
+        width: 80%;
+        margin-left: 0%;
+        
+    }
+
+    .formulario_logo, .formulario_contacto {
+        margin-left: 0%;
+    }
+
+    .formulario_contacto{
+        width: 80%;
+    }
+
+    .formulario_contacto_boton {
+        padding: 8px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    
+    .superior_busqueda {
+        display: none;
+    }
+
+    .superior_lupa {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .superior_derecha_padre{
+        width: 50%;
+    }
+
+    .superior_logo {
+        width: 35px;
+        height: 10px;
+    }
+
+    .superior_joy {
+        width: 22px;
+        height: 16px;
+    }
+    
+    .productos_productos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .productos_boton {
+        width: 80%;
+    }
+    
+    .productos_clase_titulos {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 9%;
+    }
+    
+    .productos_clase_nombre {
+        width: auto;
+        font-size: medium;
+    }
+
+    .productos_enlace {
+        margin-left: 0%;
+        width: 50%;
+    }
+
+    .productos_clase_individual {
+        width: 40%;
+        margin-right: 3px;
+    }
+
+    .productos_clase_individual1{
+        display: none;
+    }
+
+    .productos_clase_individual_img {
+        width: 150px;
+    }
+    
+    .formulario_principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario_logo {
+        justify-content: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .formulario_inf {
+        width: auto;
+        margin-left: 25%;
+    }
+
+    .formulario_parte1 {
+        width: 90%;
+    }
+    .formulario_contacto {
+        width: auto;
+    }
+
+    .formulario_contacto_boton {
+        margin-bottom: 2%;
+        font-size: 16px;
+        padding: 8px 2px;
+        width: 50%;
+    }
+}

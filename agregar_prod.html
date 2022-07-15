@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="css/agregar_prod.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <nav class="superior">
+        <div class="superior_padre">
+            <div class="superior_logo_padre">
+                <img src="img/joystick_logo.png" alt="joystick" class="superior_joy">
+                <img src="img/logo_alura.png" alt="logo" class="superior_logo">
+                <img src= "img/AluraGeek.png" alt="logo" class="superior_logo">
+                <input type="search" placeholder="¿Que desea buscar?"  class="superior_busqueda">
+            </div>
+            <div class="superior_derecha_padre">
+                <form class="superior_enlace" action="">
+                    <button class="superior_boton" href="">Menú Administrador</button>
+                </form>
+                <img class="superior_lupa" src="img/lupa.png" alt="buscar" srcset="">
+            </div>
+        </div>
+    </nav>
+
+    <section class="iniciar">
+        <form class="formulario_form" data-form>
+            <div class="iniciar_padre">
+                <h2>Agregar nuevo producto</h2>
+                <input type= "text" class="iniciar_url" placeholder="URL de la imagen" data-url>
+                <input type= "text" class="iniciar_categoria" placeholder="Categoría" data-categoria>
+                <input type= "text" class="iniciar_nombre" placeholder="Nombre del producto" data-nombre>
+                <input type= "text" class="iniciar_precio" placeholder="Precio del producto" data-precio>
+                <input type= "text" class="iniciar_descripcion" placeholder="Descripción del producto" data-descripcion>
+                <button type= "submit" class="iniciar_boton">Agregar Producto</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="formulario">
+            <div class="formulario_principal">
+                <div class="formulario_parte1">
+                    <div class="formulario_logo">
+                        <div class="superior_logo_padre">
+                            <img src="img/joystick_logo.png" alt="joystick" class="superior_joy">
+                            <img src="img/logo_alura.png" alt="logo" class="superior_logo">
+                            <img src= "img/AluraGeek.png" alt="logo" class="superior_logo">
+                        </div>
+                    </div>
+                    <div class="formulario_inf">
+                        <p class="formulario_inf_item">Quienes Somos</p>
+                        <p class="formulario_inf_item">Política de privacidad</p>
+                        <p class="formulario_inf_item">Programa de fidelidad</p>
+                        <p class="formulario_inf_item">Nuestras Tiendas</p>
+                        <p class="formulario_inf_item">Quiero ser franquiciado</p>
+                        <p class="formulario_inf_item">Anuncie Aquí</p>
+                    </div>
+                </div>
+                <div class="formulario_contacto">
+                    <p class="formulario_contacto_contacto">Hable con nosotros</p>
+                    <input class="formulario_contacto_input" type="text" placeholder="Nombre" size="300">
+                    <input class="formulario_contacto_input2" type="text" placeholder="Escribe tu mensaje" size="500" maxlength="300">
+                    <button class="formulario_contacto_boton">Enviar Mensaje</button>
+                </div>
+            </div>
+    </footer>
+    <div class="desarrollado">
+        <p class="desarrollado_texto">Desarrollado por Leandro Araujo</p>
+        <p class="desarrollado_texto2">2022</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="js/agregar_producto.js"></script>
+</body>
+</html>
